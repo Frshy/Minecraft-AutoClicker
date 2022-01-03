@@ -16,7 +16,7 @@ namespace settings {
 
 auto get_cps( int min, int max ) -> int {
 	srand( time( NULL ) );
-	return 1000 / (min + rand( ) % ((max + 1) - min));
+	return 1000 / ( min + rand( ) % ( (max + 1) - min) );
 }
 
 namespace modules {
